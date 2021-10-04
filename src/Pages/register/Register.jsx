@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import './register.scss';
 import { d2y } from '../../assets';
-import { Language } from '@material-ui/icons';
 
 export default function Register() {
   const [email, setEmail] = useState('');

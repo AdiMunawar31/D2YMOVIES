@@ -1,11 +1,8 @@
 import './app.scss';
-import Home from './pages/home/Home';
-import Register from './pages/register/Register';
-import Watch from './pages/watch/Watch';
-import Login from './pages/login/Login';
+import Routes from './routes';
 
 const App = () => {
-  return <Home />;
+  return <Routes />;
 };
 
 export default App;
